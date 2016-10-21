@@ -1,0 +1,28 @@
+Base Idea for project is a text editor with simulatenous use across multiple users hosted on a server.
+Basic Features: save as doc/pdf. Create new docs, share to others with a token.Font Size, Bold, Italic etc.
+
+Newer Features
+
+#1:
+Import Media (Pictures/Videos)
+v0: Discussed in team meeting, gen wireframe for UI, get some feedback
+
+#2:
+Spellchecker
+v0: Discussed in meeting, investigate if library pre-exists, prototype some UI ideas
+
+#3:
+Speech Bubble Comments
+v0: Discussed in meeting, way to add speech bubble ontop of doc in various colours, allows 
+    users to add comments to content without affecting the exportable doc (doesnt show on pdf)
+    Investigate UI button to add and then shape/size of adding the comment. Draggable?
+
+#4:
+LaTeX Implentation
+v0: Add ability to compile LaTeX within texteditor, seperate text window? popup perhaps?
+
+#5:
+
+#6:
+
+#7:
