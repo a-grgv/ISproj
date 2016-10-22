@@ -6,6 +6,7 @@ Newer Features
 #1:
 Import Media (Pictures/Videos)
 v0: Discussed in team meeting, gen wireframe for UI, get some feedback
+    Feedback: pictures without compression, pdfs, zips, not as excited about videos
 
 #2:
 Spellchecker
@@ -16,6 +17,7 @@ Speech Bubble Comments
 v0: Discussed in meeting, way to add speech bubble ontop of doc in various colours, allows 
     users to add comments to content without affecting the exportable doc (doesnt show on pdf)
     Investigate UI button to add and then shape/size of adding the comment. Draggable?
+    Feedback: keyboard shortcut or right click menu support. Hyperlinks within. Tag comment to some highlighted txt.
 
 #4:
 LaTeX Implentation
