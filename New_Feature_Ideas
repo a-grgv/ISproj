@@ -14,16 +14,18 @@ v0: Discussed in meeting, investigate if library pre-exists, prototype some UI i
 
 #3:
 Speech Bubble Comments
-v0: Discussed in meeting, way to add speech bubble ontop of doc in various colours, allows 
-    users to add comments to content without affecting the exportable doc (doesnt show on pdf)
+v0: Discussed in meeting, way to add speech bubble on top of doc in various colours, allows 
+    users to add comments to content without affecting the exportable doc (doesn’t show on pdf)
     Investigate UI button to add and then shape/size of adding the comment. Draggable?
     Feedback: keyboard shortcut or right click menu support. Hyperlinks within. Tag comment to some highlighted txt.
 
 #4:
-LaTeX Implentation
-v0: Add ability to compile LaTeX within texteditor, seperate text window? popup perhaps?
+LaTeX Implemtation
+v0: Add ability to compile LaTeX within text-editor, separate text window? popup perhaps?
 
 #5:
+Add a bar to include a set of about 8 or 10 of the most populare emojis that the user and
+select to add into the text they have written.
 
 #6:
 
