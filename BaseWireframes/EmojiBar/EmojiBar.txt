@@ -1,0 +1,5 @@
+This is an idea for including an emoji bar as a new feature.
+The bases of the idea is that the user can select one of around
+8 or 10 popular emojis to include in the text they are writing on
+the page. To delete an emoji the user will press backspace like
+they do when they are deleting ordinary text.
