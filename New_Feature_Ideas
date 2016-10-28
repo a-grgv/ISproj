@@ -7,10 +7,14 @@ Newer Features
 Import Media (Pictures/Videos)
 v0: Discussed in team meeting, gen wireframe for UI, get some feedback
     Feedback: pictures without compression, pdfs, zips, not as excited about videos
+YES: pictures only
+    
 
 #2:
 Spellchecker
 v0: Discussed in meeting, investigate if library pre-exists, prototype some UI ideas
+
+YES: Library solution ideally, maybe toolbar button that scans whole thing
 
 #3:
 Speech Bubble Comments
@@ -18,15 +22,32 @@ v0: Discussed in meeting, way to add speech bubble on top of doc in various colo
     users to add comments to content without affecting the exportable doc (doesn’t show on pdf)
     Investigate UI button to add and then shape/size of adding the comment. Draggable?
     Feedback: keyboard shortcut or right click menu support. Hyperlinks within. Tag comment to some highlighted txt.
+    
+MAYBE: Highlight text or drop speech bubble shape, attach text or name    
 
 #4:
 LaTeX Implemtation
 v0: Add ability to compile LaTeX within text-editor, separate text window? popup perhaps?
+MAYBE: If we have time.
 
 #5:
 Add a bar to include a set of about 8 or 10 of the most populare emojis that the user and
 select to add into the text they have written.
+YES: Inserting emojis as picture files (unicode if its easy)
+
 
 #6:
+Chat implemented in client (see wireframe folder)
+YES: Have a chat on the doc server but we need to check both the tech needed and the wireframes
+
 
 #7:
+Session Login Screen for creating new password or non-password servers and joining them ( see wireframes)
+YES: Very functional, use AJAX etc for a sequential login sequence, TODO: Check which form style is prefered 
+
+#8
+Highlighter with To-Do List windows 
+MAYBE: Research how easy this is. 
+
+#9 Coloured Highlighter
+MAYBE: If its easy
