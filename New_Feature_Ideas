@@ -50,4 +50,8 @@ Highlighter with To-Do List windows
 MAYBE: Research how easy this is. 
 
 #9 Coloured Highlighter
+Colour an area of text that is selected by the user, perhaps one colour or a selection?
+LINK TO POSSIBLE IMPLEMENTATION HELP: 
+mark.js: https://markjs.io/
+http://stackoverflow.com/questions/8644428/how-to-highlight-text-using-javascript
 MAYBE: If its easy
