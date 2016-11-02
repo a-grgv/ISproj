@@ -1,0 +1,22 @@
+User Stories - IS
+
+Actor: Teacher
+Feature: Shared documents updating live 
+Rationale: Allow pupils to all contribute to a class group assignment
+
+Actor:  Student
+Feature: Upload Media to Documents
+Rationale: Allows me to build a lab report with appropriate images
+
+Actor: Student 
+Feature: Emojis + Scribble features
+Rationale: Allows me to take a break from shared report writing to doodle on the page
+
+Actor: Party Planner 
+Feature: Password Protection
+Rationale: Allows me to keep keep a surprise party plan only in the hands of those with the key
+
+Actor:  Student Mentor
+Feature: Comments
+Rationale: I use comments so that when I check in to see my students work I can leave notes for
+	   them to read. 
