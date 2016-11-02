@@ -55,3 +55,8 @@ LINK TO POSSIBLE IMPLEMENTATION HELP:
 mark.js: https://markjs.io/
 http://stackoverflow.com/questions/8644428/how-to-highlight-text-using-javascript
 MAYBE: If its easy
+
+#10 Scribble on the page
+Allow users to write on the page, include a button to clear off scribbles, maybe an eraser?
+MAYBE:
+IMPLEMENTATION: http://intridea.github.io/sketch.js/
