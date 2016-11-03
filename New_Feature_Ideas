@@ -13,7 +13,7 @@ YES: pictures only
 #2:
 Spellchecker
 v0: Discussed in meeting, investigate if library pre-exists, prototype some UI ideas
-
+http://www.javascriptspellcheck.com/
 YES: Library solution ideally, maybe toolbar button that scans whole thing
 
 #3:
@@ -43,7 +43,8 @@ YES: Have a chat on the doc server but we need to check both the tech needed and
 
 #7:
 Session Login Screen for creating new password or non-password servers and joining them ( see wireframes)
-YES: Very functional, use AJAX etc for a sequential login sequence, TODO: Check which form style is prefered 
+YES: Very functional, use AJAX etc for a sequential login sequence,
+Form Style with buttons below bar preferred (see Wireframes)
 
 #8
 Highlighter with To-Do List windows 
