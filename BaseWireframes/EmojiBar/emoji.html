@@ -1,0 +1,76 @@
+<html>
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <head>
+	<style type="text/css">
+            button{
+                background-color: Transparent ;
+                background-repeat:no-repeat;
+				border: none;
+				cursor:pointer;
+				overflow: hidden;
+				outline:none;
+            }
+        </style>
+    <title>Emojis</title>
+    <script>
+		function addEmoji(emojiCode){
+			  var doc = document.getElementById("emojiList");
+			  if (!doc) return;
+			  var emoji = document.createElement("i");
+			  var att = document.createAttribute("class");       // Create a "class" attribute
+			  att.value = emojiCode;                           // Set the value of the class attribute
+			  emoji.setAttributeNode(att);
+			  doc.appendChild(emoji);
+}
+
+
+
+    </script>
+  </head>
+  <body>
+    <h1>Emojis</h1>
+    <P> Choose from these Emojis</p>
+    <button onclick ="addEmoji('em em-alien')" background = transparent>
+	<i class="em em-alien"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-airplane')">
+	<i class="em em-airplane"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-key')">
+	<i class="em em-key"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-sweat_smile')">
+	<i class="em em-sweat_smile"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-wink')">
+	<i class="em em-wink"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-soccer')">
+	<i class="em em-soccer"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-elephant')">
+	<i class="em em-elephant"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-facepunch')">
+	<i class="em em-facepunch"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-fire')">
+	<i class="em em-fire"></i>
+	</button>
+	
+	<button onclick ="addEmoji('em em-gb')">
+	<i class="em em-gb"></i>
+	</button>
+	
+	<p>Emojis displayed here</p>
+	<div id="emojiList" />
+  </body>
+</html>
