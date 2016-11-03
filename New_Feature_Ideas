@@ -64,5 +64,5 @@ IMPLEMENTATION: http://intridea.github.io/sketch.js/
 
 
 #11 Moveable features toolbars/editing window/stuff
-Allow users to move features around the page. This means that where the features are initially placed doesn't matter. 
+Allow users to move local features around the page. This means that where the features are initially placed doesn't matter. 
 This is "a response to user feedback where there are disagreements about where the tools should go" according to Shaun. I'll take his word on this one.
