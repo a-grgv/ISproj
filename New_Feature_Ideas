@@ -50,19 +50,22 @@ Form Style with buttons below bar preferred (see Wireframes)
 Highlighter with To-Do List windows 
 MAYBE: Research how easy this is. 
 
-#9 Coloured Highlighter
+#9
+Coloured Highlighter
 Colour an area of text that is selected by the user, perhaps one colour or a selection?
 LINK TO POSSIBLE IMPLEMENTATION HELP: 
 mark.js: https://markjs.io/
 http://stackoverflow.com/questions/8644428/how-to-highlight-text-using-javascript
 MAYBE: If its easy
 
-#10 Scribble on the page
+#10
+Scribble on the page
 Allow users to write on the page, include a button to clear off scribbles, maybe an eraser?
 MAYBE:
 IMPLEMENTATION: http://intridea.github.io/sketch.js/
 
 
-#11 Moveable features toolbars/editing window/stuff
+#11
+Moveable features toolbars/editing window/stuff
 Allow users to move local features around the page. This means that where the features are initially placed doesn't matter. 
 This is "a response to user feedback where there are disagreements about where the tools should go" according to Shaun. I'll take his word on this one.
