@@ -1,0 +1,57 @@
+Evaluation for SharePad Text Editor
+
+Goal For Product: A fun and cheerful online text editor which allows multiple users on seperate
+browsers to simultaneously edit and talk about a piece of group work. Feels accessible and enjoyable,
+suitable and inviting for use by all ages. Includes various additional features designed to highlight
+the programs fun loving nature, such as an emoji bar, scribble features, speech bubble notes and a chat
+function to allow editors to talk about the work on the same page.
+
+Using Summative Evaluation as topic too broad for Formal Experimental Method
+
+Criteria for Evalution
+
+Satisfaction:
+	1.	Do Users find colour scheme fun and inviting?
+	2.	Does the Emoji Bar make the site feel more fun?
+	3.	Does the Scribble Feature make the site feel more fun?
+	4.	Does the Chat Box make the site feel more fun?
+	5.	Would you use the system for writing documents with others? Alone?
+	6.  Do Users find the site layout (toolbar, page, header) easy to understand?
+	7.	Is the Draggable Toolbar a useful feature?
+	8.	Is the site visually appealing?
+	9.	Are the export options useful?
+	10.	Is the feature selection adequate/welcome?
+	11. Is the Login Screen inviting and easy to understand?
+	12. Is it easy to share a session?
+
+Efficiency:
+	1.	How quickly can a create a new document?
+	2.	How quickly can a sentence be typed into the editor?
+	3.	How quickly does the user transition between chat and document?
+	4.	How quickly can the user find a specific feature on the toolbar?
+	5.	How quickly can a user share their document to another?
+	6.	How quickly can the user use a function on the top bar?
+
+Effectiveness:
+	1.	How accurate are Users when trying to set up a new document?
+	2.	How accurately can users find the right function on a toolbar?
+	3.	How easy is it to share document?
+	4.	How easy is it to sign into a shared document with a password?
+	5.	How easy is it to find and use the chat windows?
+	6.	How easy is it to find and add a Bubble Comment?
+	7.	How many misdirections for somebody to find Export as PDF feature?
+	8.	How intuitive is the Scribble feature to use and then turn off?
+	9.	How effective is the sites name in communicating its function?
+
+Should use a comparison system for evaluation of the more generic functionality, as well as
+satisfaction through look and feel. Cannot directly compare some of the more unique features
+but can compare satisfaction of features provided.
+
+Possible comparisons:
+http://www.writeurl.com/
+http://collabedit.com/  <- This seems the closest comparison for features
+https://write-box.appspot.com/
+
+Most online alternatives have a focus on minimalism, so a focus on cheerful fun
+is actually carving a not-too-worn groove.
+
