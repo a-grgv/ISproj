@@ -1,0 +1,6 @@
+Made a concept picture based on the undated wireframes of the look and feel of the
+App, to create this Google Material design guide was followed with the idea that windows
+are represented to the user as paper cards floating on their screen and they sit on top of
+each other. Windows have a shadow effect and a colours are a pastel or charcoal scheme. 
+The login screen could follow this design also.  Pictures are made on photoshop so they 
+be easy changed when needed.
