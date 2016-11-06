@@ -8,7 +8,7 @@ function to allow editors to talk about the work on the same page.
 
 Using Summative Evaluation as topic too broad for Formal Experimental Method
 
-Criteria for Evalution
+CRITERIA FOR EVALUTION
 
 Satisfaction:
 	1.	Do Users find colour scheme fun and inviting?
@@ -54,4 +54,86 @@ https://write-box.appspot.com/
 
 Most online alternatives have a focus on minimalism, so a focus on cheerful fun
 is actually carving a not-too-worn groove.
+
+
+
+DEFINE TASKS TO TEST CRITERIA
+
+Task(s) below should be performed on our editor and its comparison
+
+Task 1
+Create a new Document. Type in one sentence, containing one italic word and one bold word. 
+Move to chat window and type 'Hello'.
+Type in second sentence in a new font and size.
+Export document as a PDF.
+
+Task(s) below should only be conducted on our editor (due to unique features)
+
+Task 2
+Open a new Document
+Share the session with password protection
+
+Task 3
+Join a existing session with a password.
+Leave a note at the end of the first Sentence saying "Hello" and 1 emoji.
+Upload the picture on the Desktop to the Document.
+Scribble on the page.
+
+After three tasks, ask a short questionnaire:
+
+
+
+QUESTIONNAIRE
+
+Scale 1-2-3-4-5: 
+1: Do not Agree at all, 5: Agree Utterly
+
+Q1: 
+The interface was friendly and inviting.
+
+Q2:
+The site has a good range of tools/features.
+
+Q3:
+Some of features available were fun and cheerful.
+
+Q4:
+The name of the site fits the site itself.
+
+Q5:
+I would use this site to write documents by myself.
+
+Q6:
+I would use this site to write documents with friends or colleagues.
+
+Any Comments:
+
+
+DATA / DEPENDANT FACTORS
+
+Tasks
+for each stage:
+	count each missclick or misnavigation
+	count each show of frustration 
+	count each show of enjoyment/satisfaction
+	time the stage
+
+For Task 1 contrast all stats with rival text editor.
+	
+Questionnaire
+Chart how often 1-5 is chosen for each question.
+
+Comments
+Summarise comments into key phrases, categorize by subject, be it general or a feature.
+
+
+
+
+
+
+
+
+	
+
+
 
