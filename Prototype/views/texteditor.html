@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset='utf-8'>
+  <style>
+      body {
+        font: 400 16px/1.4 'serif';
+        }
+      #textarea {
+        border: 3px inset grey;
+        height: 300px;
+        width: 500px;
+        margin: 10px auto 0;
+       }
+      fieldset {
+        margin: 2px auto 15px;
+        width: 480px;
+      }
+      button {
+        width: 5ex;
+        text-align: center;      }
+  </style>
+</head>
+
+<body>
+  <fieldset>
+    <button class="editfont" onclick="document.execCommand('italic',false,null);"><i>I</i>
+    </button>
+    <button class="editfont" onclick="document.execCommand('bold',false,null);"><b>B</b>
+    </button>
+    <button class="editfont" onclick="document.execCommand('underline',false,null);"><u>U</u>
+    </button>
+    <button class="editfont" onclick="document.execCommand('underline',false,null);"><u>U</u>
+    </button>
+    <select>
+     <option value="1" onclick="document.execCommand('fontName',false,'Courier New');">Courier New</option>
+     <option value="1" onclick="document.execCommand('fontName',false,'Arial');">Arial</option>
+     <option value="1" onclick="document.execCommand('fontName',false,'Times New Roman');">Times New Roman</option>
+    </select>
+    <select>
+     <option value="1" onclick="document.execCommand('fontSize',false,1);">1</option>
+     <option value="2" onclick="document.execCommand('fontSize',false,2);">2</option>
+     <option value="3" onclick="document.execCommand('fontSize',false,3);">3</option>
+     <option value="4" onclick="document.execCommand('fontSize',false,4);">4</option>
+     <option value="5" onclick="document.execCommand('fontSize',false,5);">5</option>
+     <option value="6" onclick="document.execCommand('fontSize',false,6);">6</option>
+     <option value="7" onclick="document.execCommand('fontSize',false,7);">7</option>
+    </select>
+  </fieldset>
+  <div id="textarea" contenteditable="true">
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    var socket = io();
+    $('#textarea').on('input',function(){
+      socket.emit('textarea update', $('#textarea').text());
+      return false;
+    });
+
+    socket.on('new edit', function(msg){
+       // store current positions in variables
+        var start = $('#textarea').selectionStart;
+        var end = $('#textarea').selectionEnd;
+        $('#textarea').text(msg)
+        $('#textarea').setSelectionRange(start, end);
+    });
+
+    socket.on('init', function(msg){
+      $('#textarea').text(msg);
+    });
+
+  </script>
+</body>
