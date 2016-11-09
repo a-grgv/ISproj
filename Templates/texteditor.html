@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+  <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link  rel="stylesheet"  href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+  <script  src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/dist/jspdf.debug.js"></script>
 
   <meta charset='utf-8'>
   <style>
@@ -20,17 +24,40 @@
       }
       button {
         width: 5ex;
-        text-align: center;      }
+        text-align: center;
+      }
+      .button_t {
+        width: 9ex;
+        text-align: center;
+      }
   </style>
 </head>
 
 <body>
+  <script src="js/dist/jspdf.debug.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/FileSaver.js"></script>
+  <script>
+     function demoFromHTML() {
+       var pdf = new jsPDF('p','in','letter')
+        , source = $('#textarea')[0]
+        , specialElementHandlers = {
+        '#bypassme': function(element, renderer){
+          return true
+        }
+        }
+        pdf.fromHTML(
+        source, 0.5, 0.5, {
+          'width':7.5, 'elementHandlers': specialElementHandlers
+        }
+        )
+        pdf.save('Test.pdf');
+     }
+  </script>
   <fieldset>
     <button class="editfont" onclick="document.execCommand('italic',false,null);"><i>I</i>
     </button>
     <button class="editfont" onclick="document.execCommand('bold',false,null);"><b>B</b>
-    </button>
-    <button class="editfont" onclick="document.execCommand('underline',false,null);"><u>U</u>
     </button>
     <button class="editfont" onclick="document.execCommand('underline',false,null);"><u>U</u>
     </button>
@@ -48,7 +75,19 @@
      <option value="6" onclick="document.execCommand('fontSize',false,6);">6</option>
      <option value="7" onclick="document.execCommand('fontSize',false,7);">7</option>
     </select>
+    <select>
+     <option value="1" onclick="document.execCommand('justifyCenter',false,null);">Center</option>
+     <option value="2" onclick="document.execCommand('justifyLeft',false,null);">Left</option>
+     <option value="3" onclick="document.execCommand('justifyRight',false,null);">Right</option>
+   </select>
+    <br>
+    <button class="button_t" onclick="document.execCommand('undo',false,null);">Undo
+    </button>
+    <button class="button_t" onclick="document.execCommand('redo',false,null);">Redo
+    </button>
   </fieldset>
-  <div id="textarea" contenteditable="true">
+  <div id="textarea" contenteditable="true" spellcheck="true">
   </div>
+  <button onclick="demoFromHTML()">Click me</button>
 </body>
+</html>
