@@ -1,0 +1,106 @@
+html,body{
+	height: 100%;
+}
+
+.canvas-wrapper{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: #F0F0F0;
+}
+.canvas-warpper > *{
+	order:1;
+}
+.dim-navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+canvas{
+	background-color: white;
+}
+
+.chat-button{
+	position: fixed;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+}
+
+.hidden-chat-div{
+	min-width: 0px;
+	transition: 0.5s;
+}
+
+.chat-for-real{
+	z-index: 1;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	background-color: #E8E8E8;
+	width: 0;
+	height: 0;
+	transition: 0.5s;
+	box-sizing:border-box;
+	border-left: 1px solid black;
+}
+
+.chat-header{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.chat-header:first-child{
+	left: 0;
+	width: auto;
+	flex: 0;
+}
+
+.glyphicon-remove{
+	font-size: 20px;
+}
+
+.chat-title{
+	flex-grow: 1;
+	text-align: center;
+	position: relative;
+	top: 30%;
+	transform: translateY(-30%);
+
+}
+.chat-input{
+	order: 1;
+	z-index: 2;
+	flex: 0;
+	min-height: 100px;
+	resize: none;
+}
+.chat-content{
+	flex-direction: column;
+	display: flex;
+	height: calc(100% - 56px);
+}
+.chat-log{
+	order: 1;
+	flex-grow: 1;
+	background-color: #F1F1F1;
+}
+.send-button{
+	border-radius: 0px;
+	order: 3;
+	flex: 0;
+	min-height: 33px;
+}
+
+.glyphicon-floppy-save{
+	font-size: 20px;
+}
+
+#brush-size{
+}
+
+#save-button{
+}

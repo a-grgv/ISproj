@@ -63,15 +63,32 @@
 
     socket.on('new edit', function(msg){
        // store current positions in variables
-        var start = $('#textarea').selectionStart;
-        var end = $('#textarea').selectionEnd;
-        $('#textarea').text(msg)
-        $('#textarea').setSelectionRange(start, end);
+        $('#textarea').text(msg);
+        $("#textarea").focus();
+        setCaretToPos($('#textarea')[0], 10)
     });
 
     socket.on('init', function(msg){
       $('#textarea').text(msg);
     });
+
+    function setSelectionRange(input, selectionStart, selectionEnd) {
+  if (input.setSelectionRange) {
+    input.focus();
+    input.setSelectionRange(selectionStart, selectionEnd);
+  } else if (input.createTextRange) {
+    var range = input.createTextRange();
+    range.collapse(true);
+    range.moveEnd('character', selectionEnd);
+    range.moveStart('character', selectionStart);
+    range.select();
+  }
+}
+
+function setCaretToPos(input, pos) {
+  console.log(input, pos)
+  setSelectionRange(input, pos, pos);
+}
 
   </script>
 </body>

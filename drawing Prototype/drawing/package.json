@@ -1,0 +1,9 @@
+{
+   "name": "test",
+   "description": "Collaborative drawing canvas",
+   "author": "test",
+   "dependencies" : {
+      "express": "4.x",
+      "socket.io": "*"
+   }
+}
